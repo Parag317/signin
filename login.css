@@ -1,0 +1,69 @@
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #00539C;
+}
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    
+}
+form button{
+    width: 40%;
+    height: 30px;
+    background-color: #2ab7ca;
+    border-radius: 8px;
+}
+#cancel{
+    background-color: #fed766;
+}
+.same,a{
+    display: block;
+
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: #FBEAEB;
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    padding: 20px;
+}
+form h2{
+   text-align: center;
+   text-transform: uppercase;
+   color: #E2D1F9;
+   font-size: 30px;
+}
+form label{
+    color: teal;
+    font-size: 20px;
+}
+
+form .diff{
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+}
+form a{
+    text-decoration: none;
+    padding-top: 5px;
+    color: #011f4b;
+}
+.fa-user{
+    position: absolute;
+    left: 60%;
+    top: 3%;
+}
+#user{
+    position: relative;
+}
+.fa-lock{
+
+}
